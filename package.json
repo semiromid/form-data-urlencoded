@@ -1,0 +1,28 @@
+{
+  "name": "form-data-urlencoded",
+  "version": "0.0.1",
+  "description": "Сonverts data form to application/x-www-form-urlencoded",
+  "keywords": [
+    "application/x-www-form-urlencoded",
+    "urlencoded",    
+    "form data",      
+  ],
+  "homepage": "https://github.com/semiromid/form-data-urlencoded/",
+  "bugs": "https://github.com/semiromid/form-data-urlencoded/issues",
+  "license": "MIT",
+  "author": {
+    "name": "TAMARA SEMINA",
+    "email": "startpascal1@mail.ru"
+  },
+  "files": [
+    "LICENSE",
+    "Readme.md",
+    "index.js"
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/semiromid/form-data-urlencoded.git"
+  }
+
+}
