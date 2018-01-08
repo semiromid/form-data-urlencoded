@@ -28,9 +28,6 @@ npm install form-data-urlencoded
 	let data = getFormData({"_csrf": 'wrwrwrvwg4657rhed4hehe4',
 		                    "Res1[Test1]": "segf96767", 
 		                    "Res2[Test2]": "hello"});
-
-	Will be:	                    
-    _csrf=wrwrwrvwg4657rhed4hehe4&Res1%5BTest1%5D=segf96767&Res2%5BTest2%5D=hello
 ```
 
 #### Example 2
@@ -42,10 +39,10 @@ npm install form-data-urlencoded
 	var data = getFormData({"_csrf": 'wrwrwrvwg4657rhed4hehe4',
 		                    "Res1[Test1]": "segf96767", 
 		                    "Res2[Test2]": "hello"});
-
-	Will be:	                    
-    _csrf=wrwrwrvwg4657rhed4hehe4&Res1%5BTest1%5D=segf96767&Res2%5BTest2%5D=hello
 ```
+
+Will be:	                    
+`_csrf=wrwrwrvwg4657rhed4hehe4&Res1%5BTest1%5D=segf96767&Res2%5BTest2%5D=hello`
 
 
 _______________________
