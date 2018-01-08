@@ -3,7 +3,7 @@
 
 > [form-data-urlencoded] 
 
-Сonverts data form to `application/x-www-form-urlencoded`. 
+Сonverts data form to `application/x-www-form-urlencoded`. Lite version.
 
 
 
@@ -22,13 +22,31 @@ npm install form-data-urlencoded
 #### Example 1
 ```javascript
 
+	import getFormData from 'form-data-urlencoded';
+
+
+	let data = getFormData({"_csrf": 'wrwrwrvwg4657rhed4hehe4',
+		                    "Res1[Test1]": "segf96767", 
+		                    "Res2[Test2]": "hello"});
+
+	Will be:	                    
+    _csrf=wrwrwrvwg4657rhed4hehe4&Res1%5BTest1%5D=segf96767&Res2%5BTest2%5D=hello
+```
+
+#### Example 2
+```javascript
+
     var getFormData = require('form-data-urlencoded');
 
 
-    getFormData();
+	var data = getFormData({"_csrf": 'wrwrwrvwg4657rhed4hehe4',
+		                    "Res1[Test1]": "segf96767", 
+		                    "Res2[Test2]": "hello"});
 
-    
+	Will be:	                    
+    _csrf=wrwrwrvwg4657rhed4hehe4&Res1%5BTest1%5D=segf96767&Res2%5BTest2%5D=hello
 ```
+
 
 _______________________
 

@@ -1,13 +1,13 @@
 {
   "name": "form-data-urlencoded",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Сonverts data form to application/x-www-form-urlencoded",
   "keywords": [
     "application/x-www-form-urlencoded",
     "urlencoded",    
-    "form data",      
+    "form data"     
   ],
-  "homepage": "https://github.com/semiromid/form-data-urlencoded/",
+  "homepage": "https://github.com/semiromid/form-data-urlencoded",
   "bugs": "https://github.com/semiromid/form-data-urlencoded/issues",
   "license": "MIT",
   "author": {
