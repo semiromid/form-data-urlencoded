@@ -3,7 +3,7 @@
 
 var index = function (data) {
     
-    let str = '';
+    var str = '';
     JSON.parse(JSON.stringify(data), function (key, value) {
         if(str === '' && key !== ''){
             str = encodeURIComponent(key)+'='+encodeURIComponent(value);
