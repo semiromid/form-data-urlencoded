@@ -1,6 +1,5 @@
 'use strict';
 
-
 var index = function (data) {
     
     var str = '';
@@ -15,42 +14,3 @@ var index = function (data) {
     return str;
 }
 module.exports = index;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   
