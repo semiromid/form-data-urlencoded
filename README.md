@@ -7,8 +7,6 @@
 
 
 
-### Features
-
 
 # Get started
 
@@ -25,9 +23,13 @@ npm install form-data-urlencoded
 	import getFormData from 'form-data-urlencoded';
 
 
-	let data = getFormData({"_csrf": 'wrwrwrvwg4657rhed4hehe4',
-		                    "Res1[Test1]": "segf96767", 
-		                    "Res2[Test2]": "hello"});
+    let data = {};
+    data["_csrf"] = 'wrwrwrvwg4657rhed4hehe4';
+    data["Res1[Test1]"] = 'segf96767';
+    data["Res2[Test2]"] = 'hello';
+
+
+	let form_data = getFormData();
 ```
 
 #### Example 2
@@ -35,10 +37,12 @@ npm install form-data-urlencoded
 
     var getFormData = require('form-data-urlencoded');
 
+    var data = {};
+    data["_csrf"] = 'wrwrwrvwg4657rhed4hehe4';
+    data["Res1[Test1]"] = 'segf96767';
+    data["Res2[Test2]"] = 'hello';
 
-	var data = getFormData({"_csrf": 'wrwrwrvwg4657rhed4hehe4',
-		                    "Res1[Test1]": "segf96767", 
-		                    "Res2[Test2]": "hello"});
+	var form_data = getFormData(data);
 ```
 
 Will be:	                    
