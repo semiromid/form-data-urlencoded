@@ -1,6 +1,6 @@
 {
   "name": "form-data-urlencoded",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Сonverts data form to application/x-www-form-urlencoded",
   "keywords": [
     "application/x-www-form-urlencoded",
