@@ -29,7 +29,7 @@ npm install form-data-urlencoded
         data["Res2[Test2]"] = 'hello';
 
 
-	let form_data = getFormData();
+	let form_data = getFormData(data);
 ```
 
 #### Example 2
